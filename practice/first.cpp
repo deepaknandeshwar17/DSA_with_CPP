@@ -39,6 +39,7 @@ using namespace std;
 // }
 
 
+
 // Airthmatic Operators
 
 // int main(){
@@ -65,3 +66,20 @@ using namespace std;
 //     cout << ( ( a > b ) && ( a < b ) ) << endl;
 //     return 0;
 // }
+
+
+
+// Unary operators
+
+int main(){
+    int a = 10 , d = 5;
+
+    int b = a++;
+    int c = ++d;
+
+    cout << "b = " << b << endl;
+    cout << "a = " << a << endl;
+    cout << "c = " << c << endl;
+    cout << "d = " << d << endl;
+    return 0;
+}
