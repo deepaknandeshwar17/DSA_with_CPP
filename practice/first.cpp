@@ -255,3 +255,34 @@ using namespace std;
 //     }
 //     return 0;
 // }
+
+
+
+// sum of all the numbers from 1 to n which are divisible by 3
+
+// int main(){
+//     int n = 7;
+//     int sum = 0;
+//     for (int i=1; i<=n; i++){
+//         if(i%3==0){
+//             sum = sum +i;
+//         }
+//     }
+//     cout<<sum;
+//     return 0;
+// }
+
+
+
+// Factorial of a number
+
+// int main(){
+//     int n = 3;
+//     int factorial = 1;
+
+//     for (int i = 1; i<=n; i++){
+//         factorial=factorial*i;
+//     }
+//     cout<<factorial<<endl;
+//     return 0;
+// }
