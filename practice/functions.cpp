@@ -131,27 +131,83 @@ using namespace std;
 
 // to check prime number
 
-bool is_prime(int num){
-    if (num <= 1){
-        return false;
-    }
-    for(int i = 2; i<num; i++){
-        if(num%i==0){
-            return false;
-        }
+// bool is_prime(int num){
+//     if (num <= 1){
+//         return false;
+//     }
+//     for(int i = 2; i<num; i++){
+//         if(num%i==0){
+//             return false;
+//         }
 
-    }
-    return true;
-}
+//     }
+//     return true;
+// }
 
-int main(){
-    int num;
-    cout<<"Enter a number: ";
-    cin>>num;
+// int main(){
+//     int num;
+//     cout<<"Enter a number: ";
+//     cin>>num;
 
-    if(is_prime(num)){
-        cout<<num<<" is a prime number"<<endl;
-    } else{
-        cout<<num<< " is not a prime number"<<endl;
-    }
-}
+//     if(is_prime(num)){
+//         cout<<num<<" is a prime number"<<endl;
+//     } else{
+//         cout<<num<< " is not a prime number"<<endl;
+//     }
+// }
+
+
+
+
+
+// Decimal to Binary
+
+
+// int decToBinary(int decnum){
+//     int ans = 0;
+//     int pow = 1;
+
+//     while(decnum>0){
+//         int rem = decnum % 2;
+//         decnum = decnum / 2;
+
+//         ans =ans+(rem*pow);
+//         pow = pow*10;
+//     }
+//     return ans;
+// }
+
+// int main(){
+//     int decnum =9;
+//     cout<<"decnum of "<<decnum<<" is : "<<decToBinary(decnum)<<endl;
+
+//     for(int i=1; i<=10; i++){
+//         cout<<"Decimal number of "<<i<<" is : "<<decToBinary(i)<<endl;
+//     }
+//     return 0;
+// }
+
+
+
+
+
+// Binary to decimal
+
+// int binaryToDecimal(int binNum){
+//     int ans = 0;
+//     int pow = 1;
+
+//     while(binNum>0){
+//         int rem = binNum % 10;
+//         ans = ans + (rem * pow);
+
+//         binNum = binNum / 10;
+//         pow = pow * 2;
+//     }
+//     return ans;
+// }
+
+// int main(){
+//     cout<<binaryToDecimal(101)<<endl;
+//     return 0;
+// }
